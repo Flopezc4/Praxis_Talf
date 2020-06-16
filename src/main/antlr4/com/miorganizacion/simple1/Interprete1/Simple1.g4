@@ -1,6 +1,6 @@
 grammar Simple1;
 program: consultasimple | creandotablanueva |consultaselect ;
-
+////probandocommit//
 ///CONSULTA 1///
 consultasimple: SELECT TODO FROM table(COMA table)* PUNTOCOMA
 				{System.out.println("Consultando");};
